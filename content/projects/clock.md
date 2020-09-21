@@ -1,12 +1,13 @@
 +++
-date = "2017-01-08"
-title = "Theme Demo"
-description = "The post demonstrates features of the coder theme."
-images = ["/images/N90.jpg"]
+date = "2019-06-08"
+title = "Digital Alarm Clock"
+description = "Project Kratos: A Mars Rover"
+images = ["/images/kratos.jpg"]
 math = true
-series = ["Theme", "Hugo"]
+series = ["Projects", "Autonomous"]
 +++
-
+##### A Mars Rover Project
+![Example image](/images/kratos.png)
 ## Style Demo
 
 # h1 Heading
@@ -78,3 +79,4 @@ console.log(foo(5));
 ## Hugo shortcode for figure
 
 {{< figure src="/images/N90.jpg" caption="N90 nebula, \"New stars shed light on the past\" by ESA/Hubble" >}}
+{{< youtube 7ka3s3takjY >}}
