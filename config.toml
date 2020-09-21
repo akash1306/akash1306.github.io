@@ -1,4 +1,4 @@
-baseurl = "http://www.akash.github.io/mypersonalSite"
+baseurl = "https://akash1306.github.io/myCV/"
 title = "Akash Chaudhary"
 
 theme = "hugo-coder"
