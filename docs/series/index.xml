@@ -2,39 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Akash Chaudhary</title>
-    <link>https://akash1306.github.io/myCV/series/</link>
+    <link>https://akash1306.github.io/series/</link>
     <description>Recent content in Series on Akash Chaudhary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 25 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://akash1306.github.io/myCV/series/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://akash1306.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo</title>
-      <link>https://akash1306.github.io/myCV/series/hugo/</link>
+      <link>https://akash1306.github.io/series/hugo/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://akash1306.github.io/myCV/series/hugo/</guid>
+      <guid>https://akash1306.github.io/series/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theme</title>
-      <link>https://akash1306.github.io/myCV/series/theme/</link>
+      <link>https://akash1306.github.io/series/theme/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://akash1306.github.io/myCV/series/theme/</guid>
+      <guid>https://akash1306.github.io/series/theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autonomous</title>
+      <link>https://akash1306.github.io/series/autonomous/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/series/autonomous/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://akash1306.github.io/series/projects/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/series/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Getting Started</title>
-      <link>https://akash1306.github.io/myCV/series/getting-started/</link>
+      <link>https://akash1306.github.io/series/getting-started/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://akash1306.github.io/myCV/series/getting-started/</guid>
+      <guid>https://akash1306.github.io/series/getting-started/</guid>
       <description></description>
     </item>
     

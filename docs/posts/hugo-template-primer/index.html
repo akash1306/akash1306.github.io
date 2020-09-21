@@ -24,7 +24,7 @@ This document is a brief primer on using go templates."/>
 <meta property="og:description" content="Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://akash1306.github.io/myCV/posts/hugo-template-primer/" />
+<meta property="og:url" content="https://akash1306.github.io/posts/hugo-template-primer/" />
 <meta property="article:published_time" content="2014-04-02T00:00:00+00:00" />
 <meta property="article:modified_time" content="2014-04-02T00:00:00+00:00" />
 
@@ -32,14 +32,14 @@ This document is a brief primer on using go templates." />
 
 
     
-      <base href="https://akash1306.github.io/myCV/posts/hugo-template-primer/">
+      <base href="https://akash1306.github.io/posts/hugo-template-primer/">
     
     <title>
   (Hu)go Template Primer · Akash Chaudhary
 </title>
 
     
-      <link rel="canonical" href="https://akash1306.github.io/myCV/posts/hugo-template-primer/">
+      <link rel="canonical" href="https://akash1306.github.io/posts/hugo-template-primer/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
@@ -49,7 +49,7 @@ This document is a brief primer on using go templates." />
     
       
       
-      <link rel="stylesheet" href="https://akash1306.github.io/myCV/css/coder.min.9836c03fe5c87d102278a33e86d0591ef36c89b1e17e8e547ebf84c05cee010e.css" integrity="sha256-mDbAP&#43;XIfRAieKM&#43;htBZHvNsibHhfo5Ufr&#43;EwFzuAQ4=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="https://akash1306.github.io/css/coder.min.9836c03fe5c87d102278a33e86d0591ef36c89b1e17e8e547ebf84c05cee010e.css" integrity="sha256-mDbAP&#43;XIfRAieKM&#43;htBZHvNsibHhfo5Ufr&#43;EwFzuAQ4=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -58,7 +58,7 @@ This document is a brief primer on using go templates." />
       
         
         
-        <link rel="stylesheet" href="https://akash1306.github.io/myCV/css/coder-dark.min.717236c74e0a5208ef73964a9f44c6b443b689a95b270d8b2a40d0c012460dac.css" integrity="sha256-cXI2x04KUgjvc5ZKn0TGtEO2ialbJw2LKkDQwBJGDaw=" crossorigin="anonymous" media="screen" />
+        <link rel="stylesheet" href="https://akash1306.github.io/css/coder-dark.min.717236c74e0a5208ef73964a9f44c6b443b689a95b270d8b2a40d0c012460dac.css" integrity="sha256-cXI2x04KUgjvc5ZKn0TGtEO2ialbJw2LKkDQwBJGDaw=" crossorigin="anonymous" media="screen" />
       
     
 
@@ -85,7 +85,7 @@ This document is a brief primer on using go templates." />
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="https://akash1306.github.io/myCV/">
+    <a class="navigation-title" href="https://akash1306.github.io/">
       Akash Chaudhary
     </a>
     
@@ -100,19 +100,19 @@ This document is a brief primer on using go templates." />
         
           
             <li class="navigation-item">
-              <a class="navigation-link" href="https://akash1306.github.io/myCV/about/">About</a>
+              <a class="navigation-link" href="https://akash1306.github.io/about/">About</a>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link" href="https://akash1306.github.io/myCV/posts/">Blog</a>
+              <a class="navigation-link" href="https://akash1306.github.io/exp/">Experience</a>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link" href="https://akash1306.github.io/myCV/projects/">Projects</a>
+              <a class="navigation-link" href="https://akash1306.github.io/projects/">Projects</a>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link" href="https://akash1306.github.io/myCV/contact/">Contact me</a>
+              <a class="navigation-link" href="https://akash1306.github.io/contact/">Contact me</a>
             </li>
           
         
@@ -149,21 +149,21 @@ This document is a brief primer on using go templates." />
           </div>
           <div class="categories">
   <i class="fas fa-folder"></i>
-    <a href="https://akash1306.github.io/myCV/categories/development/">Development</a>
+    <a href="https://akash1306.github.io/categories/development/">Development</a>
       <span class="separator">•</span>
-    <a href="https://akash1306.github.io/myCV/categories/golang/">golang</a></div>
+    <a href="https://akash1306.github.io/categories/golang/">golang</a></div>
 
           <div class="tags">
   <i class="fas fa-tag"></i>
-    <a href="https://akash1306.github.io/myCV/tags/go/">go</a>
+    <a href="https://akash1306.github.io/tags/go/">go</a>
       <span class="separator">•</span>
-    <a href="https://akash1306.github.io/myCV/tags/golang/">golang</a>
+    <a href="https://akash1306.github.io/tags/golang/">golang</a>
       <span class="separator">•</span>
-    <a href="https://akash1306.github.io/myCV/tags/templates/">templates</a>
+    <a href="https://akash1306.github.io/tags/templates/">templates</a>
       <span class="separator">•</span>
-    <a href="https://akash1306.github.io/myCV/tags/themes/">themes</a>
+    <a href="https://akash1306.github.io/tags/themes/">themes</a>
       <span class="separator">•</span>
-    <a href="https://akash1306.github.io/myCV/tags/development/">development</a></div>
+    <a href="https://akash1306.github.io/tags/development/">development</a></div>
 
         </div>
       </header>
@@ -207,7 +207,7 @@ functions.</p>
 <p>Each go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-<a href="https://akash1306.github.io/myCV/layout/variables">variables</a> page.</p>
+<a href="https://akash1306.github.io/layout/variables">variables</a> page.</p>
 <p>A variable is accessed by referencing the variable name.</p>
 <pre><code>&lt;title&gt;{{ .Title }}&lt;/title&gt;
 </code></pre>
@@ -218,7 +218,7 @@ page you are rendering. More details are available on the
 <h2 id="functions">Functions</h2>
 <p>Go template ship with a few functions which provide basic functionality. The go
 template system also provides a mechanism for applications to extend the
-available functions with their own. <a href="https://akash1306.github.io/myCV/layout/functions">Hugo template
+available functions with their own. <a href="https://akash1306.github.io/layout/functions">Hugo template
 functions</a> provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -349,7 +349,7 @@ type (supported by your front matter/config format) and use them however
 you want to inside of your templates.</p>
 <h2 id="using-content-page-parameters">Using Content (page) Parameters</h2>
 <p>In each piece of content you can provide variables to be used by the
-templates. This happens in the <a href="https://akash1306.github.io/myCV/content/front-matter">front matter</a>.</p>
+templates. This happens in the <a href="https://akash1306.github.io/content/front-matter">front matter</a>.</p>
 <p>An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
 doesn't make a lot of sense. We've defined a variable in our front matter
@@ -421,16 +421,22 @@ so, such as in this example:</p>
         
         
           
+            <li>
+              <a href="https://akash1306.github.io/exp/hugo-template-primer/">(Hu)go Template Primer</a>
+            </li>
+          
+        
+          
         
           
             <li>
-              <a href="https://akash1306.github.io/myCV/posts/hugoisforlovers/">Getting Started with Hugo</a>
+              <a href="https://akash1306.github.io/posts/hugoisforlovers/">Getting Started with Hugo</a>
             </li>
           
         
           
             <li>
-              <a href="https://akash1306.github.io/myCV/posts/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a>
+              <a href="https://akash1306.github.io/posts/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a>
             </li>
           
         
@@ -448,13 +454,13 @@ so, such as in this example:</p>
         
           
             <li>
-              <a href="https://akash1306.github.io/myCV/posts/twemoji-support/">Twemoji Support 🤩</a>
+              <a href="https://akash1306.github.io/posts/twemoji-support/">Twemoji Support 🤩</a>
             </li>
           
         
           
             <li>
-              <a href="https://akash1306.github.io/myCV/posts/render-latex-using-katex/">Render LaTeX using KaTeX</a>
+              <a href="https://akash1306.github.io/posts/render-latex-using-katex/">Render LaTeX using KaTeX</a>
             </li>
           
         
@@ -466,16 +472,20 @@ so, such as in this example:</p>
         
           
             <li>
-              <a href="https://akash1306.github.io/myCV/posts/theme-demo/">Theme Demo</a>
+              <a href="https://github.com/luizdepra/hugo-coder/wiki">Hugo coder wiki</a>
             </li>
           
         
           
             <li>
-              <a href="https://akash1306.github.io/myCV/posts/creating-a-new-theme/">Creating a New Theme</a>
+              <a href="https://akash1306.github.io/posts/theme-demo/">Theme Demo</a>
             </li>
           
         
+          
+            <li>
+              <a href="https://akash1306.github.io/exp/creating-a-new-theme/">Creating a New Theme</a>
+            </li>
           
         
         </ul>
@@ -519,8 +529,6 @@ so, such as in this example:</p>
   <footer class="footer">
     <section class="container">
       
-        <p>Enter a text here.</p>
-      
       
         ©
         
@@ -541,7 +549,7 @@ so, such as in this example:</p>
 
     
       
-      <script src="https://akash1306.github.io/myCV/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      <script src="https://akash1306.github.io/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
     
 
     

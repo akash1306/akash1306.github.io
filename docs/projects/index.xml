@@ -2,21 +2,167 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Akash Chaudhary</title>
-    <link>https://akash1306.github.io/myCV/projects/</link>
+    <link>https://akash1306.github.io/projects/</link>
     <description>Recent content in Projects on Akash Chaudhary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Sat, 08 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://akash1306.github.io/myCV/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://akash1306.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Projects</title>
-      <link>https://akash1306.github.io/myCV/projects/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>All-Terrain Vehicle: SAE BAJA</title>
+      <link>https://akash1306.github.io/projects/baja/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://akash1306.github.io/myCV/projects/projects/</guid>
-      <description>Nothing to see here&amp;hellip; Move along!</description>
+      <guid>https://akash1306.github.io/projects/baja/</guid>
+      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+This is bold text
+This is italic text
+This is italic text
+Deleted text
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
+$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
+   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+    </item>
+    
+    <item>
+      <title>Automated Robotic Arm</title>
+      <link>https://akash1306.github.io/projects/arm/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/projects/arm/</guid>
+      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+This is bold text
+This is italic text
+This is italic text
+Deleted text
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
+$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
+   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+    </item>
+    
+    <item>
+      <title>CanSat</title>
+      <link>https://akash1306.github.io/projects/cansat/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/projects/cansat/</guid>
+      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+This is bold text
+This is italic text
+This is italic text
+Deleted text
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
+$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
+   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+    </item>
+    
+    <item>
+      <title>Digital Alarm Clock</title>
+      <link>https://akash1306.github.io/projects/clock/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/projects/clock/</guid>
+      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+This is bold text
+This is italic text
+This is italic text
+Deleted text
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
+$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
+   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+    </item>
+    
+    <item>
+      <title>Object Tracking Bot</title>
+      <link>https://akash1306.github.io/projects/objecttrack/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/projects/objecttrack/</guid>
+      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+This is bold text
+This is italic text
+This is italic text
+Deleted text
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
+$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
+   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+    </item>
+    
+    <item>
+      <title>Project Kratos</title>
+      <link>https://akash1306.github.io/projects/cosmo/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/projects/cosmo/</guid>
+      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+This is bold text
+This is italic text
+This is italic text
+Deleted text
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
+$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
+   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+    </item>
+    
+    <item>
+      <title>Project Kratos: A Mars Rover</title>
+      <link>https://akash1306.github.io/projects/kratos/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/projects/kratos/</guid>
+      <description>Project Kratos aims at building a fully autonomous mars rover prototype for Indian Rover Challenge 2020 and University Rover Challenge 2020.
+  </description>
+    </item>
+    
+    <item>
+      <title>Project MATE: Undergraduate Thesis</title>
+      <link>https://akash1306.github.io/projects/mate/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/projects/mate/</guid>
+      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+This is bold text
+This is italic text
+This is italic text
+Deleted text
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
+$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
+   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+    </item>
+    
+    <item>
+      <title>Synthesis and Analysis of thin Metal(Ag) film</title>
+      <link>https://akash1306.github.io/projects/thinfilm/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/projects/thinfilm/</guid>
+      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+This is bold text
+This is italic text
+This is italic text
+Deleted text
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
+$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
+   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+    </item>
+    
+    <item>
+      <title>Tesla Coil Slayer Exciter</title>
+      <link>https://akash1306.github.io/projects/tesla/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/projects/tesla/</guid>
+      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+This is bold text
+This is italic text
+This is italic text
+Deleted text
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
+$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
+   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
     </item>
     
   </channel>
