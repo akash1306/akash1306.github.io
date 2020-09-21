@@ -114,7 +114,7 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
       
       <guid>https://akash1306.github.io/projects/kratos/</guid>
       <description>Project Kratos aims at building a fully autonomous mars rover prototype for Indian Rover Challenge 2020 and University Rover Challenge 2020.
-  </description>
+The rover has a double lambda rocker-bogie based suspension system fitted with a 5 degree of freedom arm. It is powered by a 500W battery and can function for 2 hours on continuous operation. The rover has both manual and autonomous modes. In autonomous mode, the rover can traverse between GPS points autonomously, using SLAM for localization and RRT for navigation.</description>
     </item>
     
     <item>

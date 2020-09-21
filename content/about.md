@@ -1,29 +1,21 @@
 +++
-title = "About Hugo"
+title = "About Me"
 slug = "about"
 +++
 
-Hugo is a static site engine written in Go.
+I am a fifth-year student at Birla Institute of Technology and Science- Pilani, Goa Campus, India. I am enrolled as a student in Bachelor of Engineering(Electrical and Electronics Engineering) + Master of Science (Physics). 
 
+I am currently working as an undergraduate researcher at Acoustics research lab in National University of Singapore under Dr. Mandar Chitre, working on Underwater Autonomous Vehicles.
 
-It makes use of a variety of open source projects including:
+My research interests involve Autonomous robotics, Wheeled Robots, UnderWater Robots (AUVs and ROVs), Multi-Robot Systems as well as Neural Networks. I have worked with several projects in the past involving the above topics and I am currently aiming to get selected as a PhD candidate so that I can continue my research work in the field of robotics. 
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+I am also a product designer as well as a 3D designer, and my past SolidWorks and Belnder Models can be found [here](https://www.instagram.com/anti.realism/ "here"). I am also a pianist and like to spend my time playing out my favorite tunes. I am an avid reader and have read hundreds of fictions in the past few years. 
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
-
-## Setup
-
-Some fun facts about [Hugo](http://gohugo.io/):
-
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+My Interests: 
+1. Autonomous Robots
+2. Wheeled Robots
+3. Multi-Robot Systems
+4. Underwater Robots
+5. Computer Vision
+6. Control Systems
+7. ProductDesign

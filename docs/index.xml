@@ -125,7 +125,7 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
       
       <guid>https://akash1306.github.io/projects/kratos/</guid>
       <description>Project Kratos aims at building a fully autonomous mars rover prototype for Indian Rover Challenge 2020 and University Rover Challenge 2020.
-  </description>
+The rover has a double lambda rocker-bogie based suspension system fitted with a 5 degree of freedom arm. It is powered by a 500W battery and can function for 2 hours on continuous operation. The rover has both manual and autonomous modes. In autonomous mode, the rover can traverse between GPS points autonomously, using SLAM for localization and RRT for navigation.</description>
     </item>
     
     <item>
@@ -305,25 +305,26 @@ Follow the following steps:
     </item>
     
     <item>
-      <title>About Hugo</title>
+      <title>About Me</title>
       <link>https://akash1306.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/about/</guid>
-      <description>Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.
-Setup Some fun facts about Hugo:
- Built in Go Loosely inspired by Jekyll Primarily developed by spf13 on the train while commuting to and from Manhattan. Coded in Vim using spf13-vim  Have questions or suggestions?</description>
+      <description>I am a fifth-year student at Birla Institute of Technology and Science- Pilani, Goa Campus, India. I am enrolled as a student in Bachelor of Engineering(Electrical and Electronics Engineering) + Master of Science (Physics).
+I am currently working as an undergraduate researcher at Acoustics research lab in National University of Singapore under Dr. Mandar Chitre, working on Underwater Autonomous Vehicles.
+My research interests involve Autonomous robotics, Wheeled Robots, UnderWater Robots (AUVs and ROVs), Multi-Robot Systems as well as Neural Networks.</description>
     </item>
     
     <item>
-      <title>Contact</title>
+      <title>Contact Info</title>
       <link>https://akash1306.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/contact/</guid>
-      <description>Follow me, @johndoe.</description>
+      <description>Akash Chaudhary: akash.chaudhary1306@gmail.com | +91 7038745209
+Social Media: Facebook: Click here
+Instagram: Click here
+LinkedIn: Click here</description>
     </item>
     
     <item>
