@@ -13,9 +13,9 @@ I am also a product designer as well as a 3D designer, and my past SolidWorks an
 
 My Interests: 
 1. Autonomous Robots
-2. Wheeled Robots
+2. Underwater Robots
 3. Multi-Robot Systems
-4. Underwater Robots
+4. Wheeled Robots
 5. Computer Vision
 6. Control Systems
 7. ProductDesign

@@ -24,7 +24,7 @@ disqusShortname = "yourdiscussshortname"
     info = "Robotics Engineer and 3D designer"
     avatarurl = "images/pic1.jpg"
     #gravatar = "images/pic1.jpg"
-    #footercontent = "Enter a text here."
+    #footercontent = ""
 
     dateformat = "January 2, 2006"
 
@@ -105,11 +105,6 @@ disqusShortname = "yourdiscussshortname"
             url = "about/"
 
             [[languages.en.menu.main]]
-            name = "Experience"
-            weight = 2
-            url = "exp/"
-
-            [[languages.en.menu.main]]
             name = "Projects"
             weight = 3
             url = "projects/"
@@ -118,4 +113,9 @@ disqusShortname = "yourdiscussshortname"
             name = "Contact me"
             weight = 5
             url = "contact/"
+
+            [[languages.en.menu.main]]
+            name = "CV"
+            weight = 6
+            url = "https://drive.google.com/file/d/1h18k-Tgx33Ko118sxLjFMEg92Tq1eVX8/view?usp=sharing"
 
