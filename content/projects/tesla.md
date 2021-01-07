@@ -1,5 +1,5 @@
 +++
-date = "2019-06-08"
+date = "2017-01-10"
 title = "Tesla Coil Slayer Exciter"
 description = "Project Kratos: A Mars Rover"
 images = ["/images/kratos.jpeg"]

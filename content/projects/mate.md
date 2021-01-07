@@ -1,5 +1,5 @@
 +++
-date = "2019-06-08"
+date = "2020-07-06"
 title = "Project MATE: Undergraduate Thesis"
 description = "Project Kratos: A Mars Rover"
 images = ["/images/kratos.jpg"]

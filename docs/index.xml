@@ -6,10 +6,19 @@
     <description>Recent content on Akash Chaudhary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://akash1306.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Project MATE: Undergraduate Thesis</title>
+      <link>https://akash1306.github.io/projects/mate/</link>
+      <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/projects/mate/</guid>
+      <description>Simulations are a crucial part of the Design and Deployment process as it gives us an opportunity to test our software and algorithms before deploying them in the physical world. This not only ensures that the operators are well versed with the system that they are working with but also reduces the risk of deploying the product directly which can cost the user their hardware in case of failure. In this project, we are trying to build an Open Source Simulator to test the control system for Unmanned Underwater Vehicles (UUV).</description>
+    </item>
     
     <item>
       <title>Twemoji Support 🤩</title>
@@ -23,126 +32,21 @@ Emoji size changes with text size 🤩 Emoji size changes with text size 🤩 Em
     </item>
     
     <item>
-      <title>All-Terrain Vehicle: SAE BAJA</title>
-      <link>https://akash1306.github.io/projects/baja/</link>
-      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://akash1306.github.io/projects/baja/</guid>
-      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
-This is bold text
-This is italic text
-This is italic text
-Deleted text
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
-    </item>
-    
-    <item>
-      <title>Automated Robotic Arm</title>
-      <link>https://akash1306.github.io/projects/arm/</link>
-      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://akash1306.github.io/projects/arm/</guid>
-      <description>Robotic arms are used to perform tasks, which require great precision and accuracy. They are used in various sectors of industry to automate a certain process to increase productivity and quality of a product. In the future, they can be used to perform medical operations and be used in humanoid robots, which can interact with humans. They are used in environments, which are inaccessible to humans like operating in a remote environment like in outer space or to an extraterrestrial body to conduct research.</description>
-    </item>
-    
-    <item>
       <title>CanSat</title>
       <link>https://akash1306.github.io/projects/cansat/</link>
-      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/projects/cansat/</guid>
       <description>The main aim of a CanSat is in the measurement of the CanSat’s position, atmospheric temperature, moisture, pressure and most importantly pollutants during its descent under the effect of gravity. The measurements that will be taken will be precisely measured at regular time intervals. These measurements will be transmitted to the ground station in real time using antennas. The CanSat can be used for finding the culprits behind air pollution at a given place.</description>
     </item>
     
     <item>
-      <title>Digital Alarm Clock</title>
-      <link>https://akash1306.github.io/projects/clock/</link>
-      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      <title>Automated Robotic Arm</title>
+      <link>https://akash1306.github.io/projects/arm/</link>
+      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://akash1306.github.io/projects/clock/</guid>
-      <description>System designed: Digital Clock
-Description: A Digital Alarm Clock that displays Time
-Basic Functionalities:-
- Time is displayed in HH:MM:SS format along with date (dd/mm/20yy). Both 24 Hr and 12 Hr formats are available and can be decided by the user. All of the above can be set by the user. Alarm can be set to a particular hour and minutes. The time will be displayed and updated in real time on the LCD screen provided.</description>
-    </item>
-    
-    <item>
-      <title>Object Tracking Bot</title>
-      <link>https://akash1306.github.io/projects/objecttrack/</link>
-      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://akash1306.github.io/projects/objecttrack/</guid>
-      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
-This is bold text
-This is italic text
-This is italic text
-Deleted text
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
-    </item>
-    
-    <item>
-      <title>Project Kratos: A Mars Rover</title>
-      <link>https://akash1306.github.io/projects/kratos/</link>
-      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://akash1306.github.io/projects/kratos/</guid>
-      <description>Project Kratos aims at building a fully autonomous mars rover prototype for Indian Rover Challenge 2020 and University Rover Challenge 2020.
-The rover has a double lambda rocker-bogie based suspension system fitted with a 5 degree of freedom arm. It is powered by a 500W battery and can function for 2 hours on continuous operation. The rover has both manual and autonomous modes. In autonomous mode, the rover can traverse between GPS points autonomously, using SLAM for localization and RRT for navigation.</description>
-    </item>
-    
-    <item>
-      <title>Project MATE: Undergraduate Thesis</title>
-      <link>https://akash1306.github.io/projects/mate/</link>
-      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://akash1306.github.io/projects/mate/</guid>
-      <description>Simulations are a crucial part of the Design and Deployment process as it gives us an opportunity to test our software and algorithms before deploying them in the physical world. This not only ensures that the operators are well versed with the system that they are working with but also reduces the risk of deploying the product directly which can cost the user their hardware in case of failure. In this project, we are trying to build an Open Source Simulator to test the control system for Unmanned Underwater Vehicles (UUV).</description>
-    </item>
-    
-    <item>
-      <title>Study of Cosmological Model Using General theory of Relativity</title>
-      <link>https://akash1306.github.io/projects/cosmo/</link>
-      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://akash1306.github.io/projects/cosmo/</guid>
-      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
-This is bold text
-This is italic text
-This is italic text
-Deleted text
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
-    </item>
-    
-    <item>
-      <title>Synthesis and Analysis of thin Metal(Ag) film</title>
-      <link>https://akash1306.github.io/projects/thinfilm/</link>
-      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://akash1306.github.io/projects/thinfilm/</guid>
-      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
-This is bold text
-This is italic text
-This is italic text
-Deleted text
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
-    </item>
-    
-    <item>
-      <title>Tesla Coil Slayer Exciter</title>
-      <link>https://akash1306.github.io/projects/tesla/</link>
-      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://akash1306.github.io/projects/tesla/</guid>
-      <description>The Tesla coil is an electrical resonant transformer circuit designed by inventor Nikola Tesla. It is used to produce high-voltage, low current, and high frequency alternating-current electricity. The primary and secondary circuits are tuned so they resonate at the same frequency; they have the same resonant frequency. This allows them to exchange energy, so the oscillating current alternates back and forth between the primary and secondary coils.
-We aimed to build a solid-state tesla coil, which means that it creates oscillation by taking a DC input and output the sparks on the open end of the secondary coils.</description>
+      <guid>https://akash1306.github.io/projects/arm/</guid>
+      <description>Robotic arms are used to perform tasks, which require great precision and accuracy. They are used in various sectors of industry to automate a certain process to increase productivity and quality of a product. In the future, they can be used to perform medical operations and be used in humanoid robots, which can interact with humans. They are used in environments, which are inaccessible to humans like operating in a remote environment like in outer space or to an extraterrestrial body to conduct research.</description>
     </item>
     
     <item>
@@ -177,6 +81,34 @@ This is text with inline math $\sum_{n=1}^{\infty}2^{-n}=1$This is text with in
     </item>
     
     <item>
+      <title>Synthesis and Analysis of thin Metal(Ag) film</title>
+      <link>https://akash1306.github.io/projects/thinfilm/</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/projects/thinfilm/</guid>
+      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+This is bold text
+This is italic text
+This is italic text
+Deleted text
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
+$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
+   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+    </item>
+    
+    <item>
+      <title>Digital Alarm Clock</title>
+      <link>https://akash1306.github.io/projects/clock/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/projects/clock/</guid>
+      <description>System designed: Digital Clock
+Description: A Digital Alarm Clock that displays Time
+Basic Functionalities:-
+ Time is displayed in HH:MM:SS format along with date (dd/mm/20yy). Both 24 Hr and 12 Hr formats are available and can be decided by the user. All of the above can be set by the user. Alarm can be set to a particular hour and minutes. The time will be displayed and updated in real time on the LCD screen provided.</description>
+    </item>
+    
+    <item>
       <title>Dummy</title>
       <link>https://akash1306.github.io/exp/dummy/</link>
       <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
@@ -192,6 +124,74 @@ This is text with inline math $\sum_{n=1}^{\infty}2^{-n}=1$This is text with in
       
       <guid>https://akash1306.github.io/posts/dummy/</guid>
       <description>Nada para ver aqui!</description>
+    </item>
+    
+    <item>
+      <title>Object Tracking Bot</title>
+      <link>https://akash1306.github.io/projects/objecttrack/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/projects/objecttrack/</guid>
+      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+This is bold text
+This is italic text
+This is italic text
+Deleted text
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
+$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
+   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+    </item>
+    
+    <item>
+      <title>Project Kratos: A Mars Rover</title>
+      <link>https://akash1306.github.io/projects/kratos/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/projects/kratos/</guid>
+      <description>Project Kratos aims at building a fully autonomous mars rover prototype for Indian Rover Challenge 2020 and University Rover Challenge 2020.
+The rover has a double lambda rocker-bogie based suspension system fitted with a 5 degree of freedom arm. It is powered by a 500W battery and can function for 2 hours on continuous operation. The rover has both manual and autonomous modes. In autonomous mode, the rover can traverse between GPS points autonomously, using SLAM for localization and RRT for navigation.</description>
+    </item>
+    
+    <item>
+      <title>Study of Cosmological Model Using General theory of Relativity</title>
+      <link>https://akash1306.github.io/projects/cosmo/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/projects/cosmo/</guid>
+      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+This is bold text
+This is italic text
+This is italic text
+Deleted text
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
+$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
+   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+    </item>
+    
+    <item>
+      <title>All-Terrain Vehicle: SAE BAJA</title>
+      <link>https://akash1306.github.io/projects/baja/</link>
+      <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/projects/baja/</guid>
+      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+This is bold text
+This is italic text
+This is italic text
+Deleted text
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
+$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
+   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+    </item>
+    
+    <item>
+      <title>Tesla Coil Slayer Exciter</title>
+      <link>https://akash1306.github.io/projects/tesla/</link>
+      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/projects/tesla/</guid>
+      <description>The Tesla coil is an electrical resonant transformer circuit designed by inventor Nikola Tesla. It is used to produce high-voltage, low current, and high frequency alternating-current electricity. The primary and secondary circuits are tuned so they resonate at the same frequency; they have the same resonant frequency. This allows them to exchange energy, so the oscillating current alternates back and forth between the primary and secondary coils.
+We aimed to build a solid-state tesla coil, which means that it creates oscillation by taking a DC input and output the sparks on the open end of the secondary coils.</description>
     </item>
     
     <item>

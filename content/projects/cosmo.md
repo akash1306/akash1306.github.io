@@ -1,5 +1,5 @@
 +++
-date = "2019-06-08"
+date = "2018-01-15"
 title = "Study of Cosmological Model Using General theory of Relativity"
 description = "Study of Cosmological Model Using General theory of Relativity"
 images = ["/images/kratos.jpg"]

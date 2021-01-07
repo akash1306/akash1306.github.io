@@ -1,5 +1,5 @@
 +++
-date = "2019-06-08"
+date = "2019-01-05"
 title = "Digital Alarm Clock"
 description = "Project Kratos: A Mars Rover"
 images = ["/images/kratos.jpg"]

@@ -1,5 +1,5 @@
 +++
-date = "2019-06-08"
+date = "2018-05-15"
 title = "Object Tracking Bot"
 description = "Project Kratos: A Mars Rover"
 images = ["/images/kratos.jpg"]

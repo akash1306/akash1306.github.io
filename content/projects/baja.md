@@ -1,5 +1,5 @@
 +++
-date = "2019-06-08"
+date = "2017-03-12"
 title = "All-Terrain Vehicle: SAE BAJA"
 description = "Project Kratos: A Mars Rover"
 images = ["/images/kratos.jpg"]
