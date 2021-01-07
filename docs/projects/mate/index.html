@@ -134,94 +134,294 @@
       <h1>Project MATE: Undergraduate Thesis</h1>
     </header>
 
-    <h5 id="a-mars-rover-project">A Mars Rover Project</h5>
-<p><img src="https://akash1306.github.io/images/kratos.png" alt="Example image"></p>
-<h2 id="style-demo">Style Demo</h2>
-<h1 id="h1-heading">h1 Heading</h1>
-<h2 id="h2-heading">h2 Heading</h2>
-<h3 id="h3-heading">h3 Heading</h3>
-<h4 id="h4-heading">h4 Heading</h4>
-<h5 id="h5-heading">h5 Heading</h5>
-<h6 id="h6-heading">h6 Heading</h6>
-<hr>
-<p><strong>This is bold text</strong></p>
-<p><strong>This is bold text</strong></p>
-<p><em>This is italic text</em></p>
-<p><em>This is italic text</em></p>
-<p><del>Deleted text</del></p>
-<p>This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:</p>
-<p>$$
-\sum_{n=1}^{\infty} 2^{-n} = 1
-$$</p>
-<table>
-<thead>
-<tr>
-<th align="center">Heading</th>
-<th align="center">Another heading</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">text</td>
-<td align="center">text</td>
-</tr>
-<tr>
-<td align="center">text</td>
-<td align="center">text</td>
-</tr>
-<tr>
-<td align="center">text</td>
-<td align="center">text</td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<p>Block quotes are
-written like so.</p>
-<p>They can span multiple paragraphs,
-if you like.</p>
-</blockquote>
-<p>Some text, and some <code>code</code> and then a nice plain <a href="https://github.com/davidhampgonsalves/davidhampgonsalves.com-hugo" title="title text!">link with title</a>.</p>
-<p>and then</p>
-<ul>
-<li>Create a list by starting a line with <code>+</code>, <code>-</code>, or <code>*</code></li>
-<li>Sub-lists are made by indenting 2 spaces:
-<ul>
-<li>Marker character change forces new list start:
-<ul>
-<li>Ac tristique libero volutpat at</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Very easy!</li>
-</ul>
-<p>vs.</p>
+    <p><img src="https://akash1306.github.io/images/auv.png" alt="Example image"></p>
+<p>Simulations are a crucial part of the Design and Deployment process as it gives us an opportunity to test our software and algorithms before deploying them in the physical world. This not only ensures that the operators are well versed with the system that they are working with but also reduces the risk of deploying the product directly which can cost the user their hardware in case of failure. In this project, we are trying to build an Open Source Simulator to test the control system for Unmanned Underwater Vehicles (UUV).</p>
+<p>We will be using Unity3D, a physics engine to simulate the environment in which the UUV will be deployed, and Robot Operating System (ROS) to build the control system for the same.</p>
+<p><strong>The Mission Statement</strong></p>
+<p>The tasks to be undertaken by the UUV after deployment from a remote Control Station.</p>
 <ol>
-<li>Lorem ipsum dolor sit amet</li>
-<li>Consectetur adipiscing elit</li>
-<li>Integer molestie lorem at massa</li>
+<li>Start from the surface near the Control station.</li>
+<li>Sink down</li>
+<li>Find and Follow the Pipeline.</li>
+<li>Search for the leak in the pipeline and mark its coordinates.</li>
+<li>Cross gate checkpoints on the way back.</li>
 </ol>
-<h2 id="code">Code</h2>
-<p>Inline <code>code</code></p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#fff;font-weight:bold">var</span> foo = <span style="color:#fff;font-weight:bold">function</span> (bar) {
-  <span style="color:#fff;font-weight:bold">return</span> bar++;
-};
+<p><strong>The Scene</strong></p>
+<p>The Scene of the Simulator consists of hilly terrain with water-filled in the form of a lake. The water contains a pipe with a leak and four gates. The scene also contains a control station that harbors the AUV. The seabed is a separate object used both for texturing purposes as well as a reference object for various functions involving depth information. The following images display the Scene of the Simulation.</p>
+<p>Along with functionality, aesthetics also play a major role in the simulator. We have created the seabed using simplex noise and custom-built shaders are used to simulate the underwater environment. A distortion effect is added to the camera view to depict the light distortion that occurs when the water is moving, as well as underwater fog. Light diffusion effects are also added to simulate how sunlight diffuses through the water and falls on underwater objects.</p>
+<hr>
+<p>The Control Station</p>
+<p><img src="https://akash1306.github.io/images/ControlStation.JPG" alt="Control Station"></p>
+<hr>
+<p>The Terrain</p>
+<p><img src="https://akash1306.github.io/images/Terrain.JPG" alt="The Terrain"></p>
+<hr>
+<p>The Underwater Scene</p>
+<p><img src="https://akash1306.github.io/images/Underwater.jpg" alt="The Underwater Scene"></p>
+<hr>
+<p><strong>The User Interface</strong></p>
+<p>The User Interface (UI) allows the operator to monitor the state of the vehicle and help them to control the UUV. The layout of the UI is shown in the following image</p>
+<hr>
+<p><img src="https://akash1306.github.io/images/UI.png" alt="UI"></p>
+<hr>
+<p><strong>The Simulator</strong></p>
+<p>The simulation starts with the AUV attached to the control station ready for the launch. As soon as the user presses ’R’, the AUV is released from the station into the water. From here, the operator has to control the 6 degrees of freedom of the AUV to find the pipeline. The operator uses two camera views along with other sensor data as listed in the User Interface section, to control the vehicle. The degree of freedom and their controls are as follows: The AUV is is aligned with the pipeline and then follows it to find the leak. When the leak is visible in the downwards facing camera, we consider the leak to be found, the coordinates of the leak are marked, and then the AUV proceed towards gates suspended in the water, to better test the controls of the vehicle. Once we have crossed all the four gates, we consider the mission a success.</p>
+<p>The vehicle experiences buoyant force according to its submerged volume. This is achieved by dividing the boat mesh into triangles and then calculating the number of triangles that are submerged, whether fully or partially, underwater. An upward force is applied to individual triangles and the cumulative effect of those forces is seen as the buoyant force on the body. But to use this force, we need a constant downward force from the vehicle’s thrusters to keep the AUV stabilized at a depth, which can only be achieved after a control system integration from ROS side. So to get the desired effect when using Unity3D alone, gravity is switched off.</p>
+<p><strong>Blender</strong></p>
+<p>All the Prefabs of the simulation were modeled using blender. This served as a great learning experience in both the blender environment and Unity3D. Objects are exported as Filmbox (.fbx) file type from blender, so they can be imported into Unity3D. The objects behave differently in Unity once they are imported and therefore a little care is needed when using them. The major difference comes in the way the shaders built-in blender behave in unity, so sometimes new shaders were needed after the objects were imported into Unity.</p>
+<p><strong>The Sensors</strong></p>
+<p>The sensors to be deployed on the UUV are as follows:</p>
+<ul>
+<li>Two camera- Front facing and Downwards facing.</li>
+<li>Inertial Measurement Unit (IMU)</li>
+<li>Pressure Sensor</li>
+<li>Temperature Sensor</li>
+<li>Proximity Sensor</li>
+<li>Navigation Lights</li>
+</ul>
+<h2 id="robot-operating-system">Robot Operating System</h2>
+<p>This project has been tested on ROS Melodic, Noetic, and ROS 2 Eloquent. This section will deal with the instructions for the ROS side of the project. The RosBridgelibrary used on the ROS side is part of <a href="https://github.com/RobotWebTools/rosbridge_suite">rosbridge_suite</a>. We use a WebSocket to pen a connection, to which Unity connects. The exchange of information happens over this connection including all the video feeds as well as the parameters.</p>
+<p><strong>For ROS 1</strong></p>
+<ol>
+<li>
+<p>Install ROSBridge suite on your linux machine.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">akash@unitymachine:~$ sudo apt-get install ros-&lt;rosdistro&gt;-rosbridge-suite
+</code></pre></div></li>
+<li>
+<p>Source your ROS distro and run the websocket launch file.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">akash@unitymachine:~$ source /opt/ros/&lt;rosdistro&gt;/setup.bash
+akash@unitymachine:~$ roslaunch rosbridge_server rosbridge_websocket.launch
+</code></pre></div><p><em>This will also run &lsquo;roscore&rsquo;.</em></p>
+</li>
+<li>
+<p>Check the host IP address in a new terminal using</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">akash@unitymachine:~$ hostname -I
+</code></pre></div></li>
+</ol>
+<p><em>Note: If you are running Unity and ROS on the same system, the IP address would be &lsquo;ws://localhost:9090&rsquo;</em></p>
+<ol start="4">
+<li>Open a new terminal and source your ros distro. Then make a workspace with a package inside having rospy as a dependency and run the scipt in the &lsquo;ROS&rsquo; folder of this repository.</li>
+</ol>
+<p><strong>For ROS 2</strong></p>
+<p>The rosbridge_suite currently does not support ROS 2 officially. But there is a pull request (<a href="https://github.com/RobotWebTools/rosbridge_suite/pull/493">https://github.com/RobotWebTools/rosbridge_suite/pull/493</a>) to the repository for ROS 2 support. We use the contents of that pull request to setup the rosbridge connection for ROS 2.</p>
+<ol>
+<li>Clone the rosbridge_suite repository to your system.
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">akash@unitymachine:~$ git clone https://github.com/RobotWebTools/rosbridge_suite.git
+</code></pre></div></li>
+<li>Shift to the latest commit of the ROS 2 support pull request using GitHub CLI.
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">akash@unitymachine:~$ gh pr checkout 493
+</code></pre></div></li>
+<li>Build the library on your system and source your ROS 2 distro.
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">akash@unitymachine:~$ source /opt/ros/eloquent/setup.sh
+akash@unitymachine:~$ cd rosbridge_suite
+akash@unitymachine:~/rosbridge_suite$ colcon build
+</code></pre></div></li>
+<li>Source the setup.bash of the rosbridge library.
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">akash@unitymachine:~/rosbridge_suite $ source install/setup.bash
+</code></pre></div></li>
+<li>Run the websocket script.
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">akash@unitymachine:~/rosbridge_suite $ ros2 run rosbridge_server rosbridge_websocket
+</code></pre></div></li>
+</ol>
+<h2 id="rosbridge-library">RosBridge Library</h2>
+<p>There are two Rosbridge libraries that come into play when using this project. One on the unity side and the other one on the ROS side. Both of them are named the same. For the sake of simplicity, I'll be using RosBridgeUnity and RosBridgeRos to denote the library of Unity and ROS respectively.</p>
+<p><strong>What is RosBridge Library in general?</strong></p>
+<p>The documentation of the rosbridge_suite (i.e. RosBridgeRos) states &ldquo;rosbridge provides a JSON interface to ROS, allowing any client to send JSON to publish or subscribe to ROS topics, call ROS services, and more. rosbridge supports a variety of transport layers, including WebSockets and TCP.&rdquo;</p>
+<p>In simpler terms, you can send data over a network to and from ROS using this library. This is how we use it in this project. We send data, which might include parameters, control inputs, or video feed, between Unity3D and ROS which enables us to use the Unity simulator as a substitute for actual hardware. This allows us to test all of our algorithms as if we are running them on the actual ROV itself. Thus saving us time and money, and it also reduces risks that experimental programs might pose on expensive hardware.</p>
+<p>The RosBridgeUnity is a C# based library which serves as the other end of this exchange. It was forked from @MathiasCiarlo and @michaeljenkin who were using it on projects of there own. It comes with some primitive scripts to get the connection running and the user can then use them as a base for their own project. You can find the original repository here: <a href="https://github.com/MathiasCiarlo/ROSBridgeLib">https://github.com/MathiasCiarlo/ROSBridgeLib</a></p>
+<p>More details on ROsBridgeROS can be found on the &lsquo;ROS 1 and ROS 2&rsquo; page of the wiki. This section will focus on ROsBridgeUnity.</p>
+<p>This project uses RosBridgeUnity to send video feeds, depth feed, and vehicle parameters from Unity to ROS and receives control commands from ROS. The setup includes using the &lsquo;RosInitializer&rsquo; script to input the target IP address and call all the subscriber and publisher scripts in Unity. RosInitializer.cs also projects the camera feed to 2D textures so that it can then be transferred to ROS as a compressed image.</p>
+<p>To use RosBridgeUnity in your Unity project, copy the RosBridgeLib folder to your Assets folder along with the &lsquo;RosBFolder&rsquo; in the scripts folder which contains the required scripts to launch your connection.</p>
+<h2 id="mapping">Mapping</h2>
+<p>Mapping the vehicle's environment was at the core of the project. It is especially important because it will enable us to save the map and use it later for our digital twin implementation. So to test our mapping systems, the first step was to give our simulator mapping capabilities. Following that, Octomap was used to map and store the environment on the ROS side.</p>
+<h3 id="unity3d-sonar">Unity3D SONAR</h3>
+<p>The first task at hand was to emulate a multi-beam sonar in our Unity3D vehicle to send depth information over our ROSBridge. This was done using the Raycast method of the Physics package of Unity. The steps required for this implementation are as follows:</p>
+<ol>
+<li>Create a Raycast hit array for the number of rays you want.</li>
+<li>Check for the ray collisions with an object.</li>
+<li>If a collision occurs, save the distance to a depth array element.</li>
+<li>If not, then assign a large enough value to the element which will then be substituted for infinity by the ROS decoder for the /scan message.</li>
+</ol>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">        RaycastHit hit;
+        Debug.DrawRay(auv.transform.position, auv.transform.right * -30);
 
-console.log(foo(<span style="color:#ff0;font-weight:bold">5</span>));
-</code></pre></div><h2 id="hugo-shortcode-for-figure">Hugo shortcode for figure</h2>
-<p><figure>
-    <img src="https://akash1306.github.io/images/N90.jpg"
-         alt="N90 nebula, &amp;ldquo;New stars shed light on the past&amp;rdquo; by ESA/Hubble"/> <figcaption>
-            <p>N90 nebula, &ldquo;New stars shed light on the past&rdquo; by ESA/Hubble</p>
-        </figcaption>
-</figure>
+        if (Physics.Raycast(auv.transform.position, auv.transform.right * -1, out hit, 30))
+        {
+            depthLog[320] = hit.distance;
+        }
+        else
+        {
+            depthLog[320] = 30;
+        }
 
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/7ka3s3takjY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-</p>
+</code></pre></div><p>This concludes the Unity3D implementation, and we can now move on to the Octomap module.</p>
+<h3 id="octomap-mapping">Octomap Mapping</h3>
+<p>As mentioned in the Octomap's homepage - &ldquo;The OctoMap library implements a 3D occupancy grid mapping approach, providing data structures and mapping algorithms in C++ particularly suited for robotics.&rdquo; We use octomap to recreate the environment scanned by our underwater vehicle, and subsequently, save it to be used to future implementation. This is done in several steps which are outlined below.</p>
+<ol>
+<li>By incorporating the position published from the Unity3D simulator, we publish the transform of the vehicle by using the tf2 library. This is then broadcasted by a tf broadcaster, to be used by our octomapping node later on.</li>
+<li>A string decoder subscribes to the decoded depth array sent from Unity3D and republish that data as a float array.</li>
+<li>The LaserScan Publisher uses the decoded dpeth float array to convert it into a laser scan topic. It also uses the field of view topic to get the angle of scan for the laserscan topic.</li>
+<li>The octomap mapping tool need the depth data as a point cloud. So we convert the laser scan to point cloud to and publish it over the topic /laserPointCloud</li>
+<li>Once we have our point cloud and transforms ready, we feed them into our octomap mapping node, where we can use rviz tool to visualize the recreated map.</li>
+<li>The final Node Map of the whole system is represented by the following figure</li>
+</ol>
+<hr>
+<p><img src="https://akash1306.github.io/images/NodeMap.JPG" alt="Node Map"></p>
+<hr>
+<h2 id="unity3d-scripts">Unity3D Scripts</h2>
+<p>A brief description of the scripts used is given below. Further documentation can be found within the scripts.</p>
+<ol>
+<li>
+<p><strong>AUVControl:</strong> This script uses transform function to move the AUV body, disregarding its mass properties.</p>
+</li>
+<li>
+<p><strong>Buoyancy:</strong></p>
+<ol>
+<li><strong>BoatPhysics:</strong> This script is attached to the vehicle and find the extract information about the location of the meshes.</li>
+<li><strong>ModifyBoatMesh:</strong> Generates the mesh that’s below the water.</li>
+<li><strong>TriangleData:</strong> Send the triangle information to other Buoyancy scripts.</li>
+<li><strong>WaterController:</strong> Extract information about the water and water level to send to the other scripts.</li>
+</ol>
+</li>
+<li>
+<p><strong>ButtonFunctions:</strong></p>
+<ol>
+<li>Release the AUV from the control station when ’R’ is pressed.</li>
+<li>Control the button functions for the Front and Downward Illumination.</li>
+<li>Optional functions to switch camera view if the user doesn't want two camera views on the screen.</li>
+</ol>
+</li>
+<li>
+<p><strong>Coordinates:</strong> Show the coordinates of the AUV and freezes them when &lsquo;M&rsquo; is pressed to mark the Leak’s coordinates.</p>
+</li>
+<li>
+<p><strong>FogStart:</strong> Switches on Unity's Fog when the vehicle's position is below the water level. The color of the fog is preset in Unity settings.</p>
+</li>
+<li>
+<p><strong>ForceControls:</strong> Uses AddForce and AddTorque to make the vehicle move, thus providing a more realistic approach.</p>
+</li>
+<li>
+<p><strong>PauseGame:</strong> A pause menu for the simulator to give the user more control over the scene and easy access to the Main menu.</p>
+</li>
+<li>
+<p><strong>SeabedScript:</strong></p>
+<ol>
+<li>Calculates Vehicle’s Angular and Linear Velocity and convert them to scalar their respective scalars i.e. Angular and Linear Speed.</li>
+<li>Calculates the Acceleration of the Vehicle.</li>
+<li>Calculates the vehicle’s distance from the seabed.</li>
+<li>Calculates the Vehicle’s depth, its surrounding Temperature and Pressure.</li>
+<li>Calculates the Vehicle’s distance from the control station.</li>
+<li>Controls the behavior of the Range warning, Proximity warning and the collision warning LEDs.</li>
+</ol>
+</li>
+<li>
+<p><strong>StartScreen:</strong> Script controlling the elements of the main menu including user input for IP address, port number, and mission timing. Takes these inputs and uses them in the simulator and redirects to the simulator screen when &lsquo;Start&rsquo; is pressed.</p>
+</li>
+<li>
+<p><strong>StartUnderwater:</strong> Starts the underwater distortion effects when a particular camera goes below the water level. Also plays the background sounds when the vehicle goes underwater.</p>
+</li>
+<li>
+<p><strong>SwitchOffGravity:</strong> Used only when the Buoyancy scripts are not being used. Disables the gravity as soon as the vehicle enters the water, to simulate a simple underwater environment.</p>
+</li>
+<li>
+<p><strong>UIScript:</strong> Controls and Display the following UI elements:</p>
+<ol>
+<li>Speed</li>
+<li>Angular Speed</li>
+<li>Acceleration</li>
+<li>Temperature</li>
+<li>Pressure</li>
+<li>Depth</li>
+<li>Distance from the seabed</li>
+<li>Distance from the control station</li>
+<li>Remaining Battery</li>
+</ol>
+</li>
+<li>
+<p><strong>UnderWaterEffects:</strong> Controls the parameters for underwater distortion effects. Called by &lsquo;StartUnderwater&rsquo; to activate the effects on cameras.</p>
+</li>
+<li>
+<p><strong>WaterAnim:</strong> Controls the caustic projection on object surfaces to create a lightening shift effect due to water.</p>
+</li>
+</ol>
+<h3 id="rosbfolder">RosBFolder</h3>
+<ol>
+<li><strong>PoseSubscriber:</strong> Subscribes to a &lsquo;pose&rsquo; topic which is then used by control scripts for movement and function controls.</li>
+<li><strong>TwistPublisher:</strong> A base publisher that can publish pose data.</li>
+<li><strong>DataManager:</strong> Controls the publisher script to publish the required information.</li>
+<li><strong>downcamPublisher:</strong> Compressed Image Publisher for the downward-facing camera.</li>
+<li><strong>frontcamPublisher:</strong> Compressed Image Publisher for the forward-facing camera.</li>
+<li><strong>ImagePublisher:</strong> Standard compressed image publisher which is used to transfer station camera feed to ROS.</li>
+<li><strong>ImageTransfer:</strong> Encode the video feed into a string message which can then be used to call the StringImagePublisher to publish the video feed as a string topic type.</li>
+<li><strong>RawImagePublisher1:</strong> A base Raw Image Publisher.</li>
+<li><strong>ROSInitializer:</strong> Initializes the Rosbridge connection using the IP address entered in the start screen. Also encodes video feed by first projecting it on a texture and then publishing that texture as a compressed image.</li>
+<li><strong>StringImagePublisher:</strong> A base publisher for String topic type, used to transfer video feed as string message type.</li>
+</ol>
+<h2 id="underwater-environment">Underwater Environment</h2>
+<p>This section deals with creating a realistic underwater environment, which includes water surface, light diffusion effects, and fog effects. We will not discuss underwater distortion as that will involve shaders, which fall out of the scope of this section.</p>
+<h3 id="setting-up-the-environment">Setting Up the Environment</h3>
+<p>We will first set up the environment using some simple shapes and Unity's Standard Assets. The steps are as follows:</p>
+<ol>
+<li>Make a pool using 5 cubes by resizing them.</li>
+<li>Import Unity's Standard Assets from the Asset Store, into the project.</li>
+<li>Go to Standard Assets -&gt; Environment -&gt; Water
+You'll see two options. Both are just different versions, and what you choose depends upon your preference and how much resources do you have to spare to render water. In this project, we use Water4Advanced.</li>
+<li>Further go to Water4 -&gt; Prefabs and insert the <strong>Water4Advance</strong> into the scene. Resize it according to the size of your pool. 
+<em>Note: Never scale it more than 2 times, or the waves will become choppy. Insert multiple instances of the prefab if you want to cover a larger area, each with a scale of 2 or lower.</em></li>
+<li>Set your camera (or cameras) at a good vantage position to observe the effects. You can have two cameras, one above the water and one below to better observe all the effects.</li>
+<li><em>Optional</em> Duplicate your water prefabs, rotate them 180 degrees on the x-axis and move them just a little bit below the original ones to get better reflections once you are underwater.</li>
+</ol>
+<hr>
+<p><img src="https://akash1306.github.io/images/ex1.png" alt="EX1"></p>
+<hr>
+<p>Once this is done, we can now move on to add underwater fog to limit visibility.</p>
+<h3 id="underwater-fog">Underwater Fog</h3>
+<p>Once the vehicle or player is underwater, it becomes very clear that the scene doesn't look realistic. It looks just like it does above water. So we will now add underwater fog. This is done by using unity's own Fog in the <em>Lightening Settings.</em> But before that, we will add a player which can move in the scene.</p>
+<ol>
+<li>Add a platform for the player to walk on, which is connected to the pool.</li>
+<li>Add a capsule GameObject, which will behave as our body.</li>
+<li>Go to Standard Assets -&gt; Characters -&gt; FirstPersonCharacter -&gt; Prefabs and add <strong>RigidBodyFPSController</strong> to the scene. Make it the parent of the Capsule that we added before, and make them overlap in position.</li>
+</ol>
+<p>This is our player now. You can playtest it by playing Ctrl + P and moving around in the scene, or even jump in the water. You can delete the cameras, although they can still be used for observations.</p>
+<ol start="4">
+<li>Go to Window tab -&gt; Rendering -&gt; Lighting and click on the Environment Tab. You can see the Fog settings (under Other Settings) there. This is where we will set the color of our fog. (You can give colors to all other assets too, for aesthetic effects)</li>
+<li>Check the box in front of the Fog option. This will switch on the fog. You will notice that the fog is greyish and it's everywhere, including above water. We will control its activation with a script.</li>
+<li>Change the mode to &lsquo;Linear&rsquo;, which gives it a more realistic effect.</li>
+<li>Keep the Start position as zero and set the end position according to your scene. I am using 20.</li>
+<li>Set the color according to your preference. I am using a dirty green color to get a more algae infested water body.</li>
+<li>Once you are satisfied with your fog color and distance, uncheck the fog check box.</li>
+</ol>
+<p>Now we will control it using a script.</p>
+<ol start="10">
+<li>Import the Fogstart.cs script, from this project, into your project.</li>
+<li>Add this script to the camera component of the RigidbodyPlayer.</li>
+<li>Insert the Water prefab in the water level Column of the script in the Inspector Panel of the Camera.</li>
+</ol>
+<p>This script checks whether the camera is underwater or not, and switches the fog on or off accordingly.</p>
+<hr>
+<p><img src="https://akash1306.github.io/images/ex2.png" alt="EX2"></p>
+<hr>
+<p>Our fog is now in place, and we can now move forward with underwater light distortion effects.</p>
+<h3 id="underwater-diffusion">Underwater Diffusion</h3>
+<p>When light passes through the water's surface, it diffuses and falls on the underwater surfaces in a continuously moving pattern. We will try to emulate this effect using caustics and projectors.
+A Projector allows you to project a Material onto all objects that intersect its frustum. We will use two projectors. Once is a blob light projector and the other one is a grid projector. 
+The BlobLight projector will project from the water's surface, while the grid projector will do it from above.</p>
+<ol>
+<li>Go to Standard Assets -&gt; Effects -&gt; Projectors -&gt; Prefabs and add <strong>BlobLightProjector</strong> &amp; <strong>GridProjector</strong> to the scene. Place the grid projector above the water surface, and the Blob light projector just below the surface.</li>
+<li>Import the WaterAnim.cs script from this project into your project and attach it to both the projectors.</li>
+<li>Import the Caustics folder to your projector, which contains the images that'll be projected onto the surfaces.</li>
+<li>Set the settings for the projectors in the inspector panel as shown below</li>
+</ol>
+<hr>
+<p><img src="https://akash1306.github.io/images/ex3.png" alt="EX3"></p>
+<hr>
+<ol start="5">
+<li>Add the images inside Caustics to the boxes under the script inspector panel of both the projectors.</li>
+</ol>
+<hr>
+<p><img src="https://akash1306.github.io/images/ex4.gif" alt="Walkthrough"></p>
+<hr>
+<p>And that is how you create an underwater scene. You can insert several other objects in the scene according to your needs and create a custom controller for your player so that you can control it in all degrees of freedom when underwater. You can go through the documentation of this project to know more about how to do that. A sample barebones underwater scene can be found <a href="https://github.com/akash1306/UnderwaterExample">here</a>.</p>
 
   </article>
 </section>
@@ -255,7 +455,7 @@ console.log(foo(<span style="color:#ff0;font-weight:bold">5</span>));
         
           2019 -
         
-        2020
+        2021
          Akash Chaudhary 
       
       

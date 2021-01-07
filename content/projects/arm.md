@@ -6,77 +6,10 @@ images = ["/images/kratos.jpg"]
 math = true
 series = ["Projects", "Autonomous"]
 +++
-##### A Mars Rover Project
+
 ![Example image](/images/kratos.png)
-## Style Demo
 
-# h1 Heading
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
+Robotic arms are used to perform tasks, which require great precision and accuracy. They are used in various sectors of industry to automate a certain process to increase productivity and quality of a product. In the future, they can be used to perform medical operations and be used in humanoid robots, which can interact with humans. They are used in environments, which are inaccessible to humans like operating in a remote environment like in outer space or to an extraterrestrial body to conduct research. International Space Station and Mars rovers like curiosity and rover twins are its great examples. We will be using electric linear actuators for actuation of robotic links. A worm gear assembly will be used for base rotation and a bevel gearbox at gripper to provide its 2 DOF.
 
 
----
-
-**This is bold text**
-
-__This is bold text__
-
-*This is italic text*
-
-_This is italic text_
-
-~~Deleted text~~
-
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-
-$$
-\sum_{n=1}^{\infty} 2^{-n} = 1
-$$
-
-| Heading | Another heading |
-| :----:  | :-------------: |
-|  text   |      text       |
-|  text   |      text       |
-|  text   |      text       |
-
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
-
-Some text, and some `code` and then a nice plain [link with title](https://github.com/davidhampgonsalves/davidhampgonsalves.com-hugo "title text!").
-
-and then
-
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-+ Very easy!
-
-vs.
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-## Code
-
-Inline `code`
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Hugo shortcode for figure
-
-{{< figure src="/images/N90.jpg" caption="N90 nebula, \"New stars shed light on the past\" by ESA/Hubble" >}}
-{{< youtube 7ka3s3takjY >}}
+The arm that we are building is capable of lifting a payload of upto 7Kgs, perform various tasks such as operating a joystick, type on a keyboard etc. The primary goal of our project is to build an autonomous robotic arm for the rover being built by Team Kratos for University Rover Challenge. In the future they can be used to perform certain medical procedures which requires a lot of precision and accuracy. They can also be used by disabled people to perform certain tasks which will help them to become independent upto a certain extent. They can also be used by the military for bomb defusal, which can save countless precious lives

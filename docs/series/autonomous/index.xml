@@ -33,14 +33,7 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
       <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/projects/arm/</guid>
-      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
-This is bold text
-This is italic text
-This is italic text
-Deleted text
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+      <description>Robotic arms are used to perform tasks, which require great precision and accuracy. They are used in various sectors of industry to automate a certain process to increase productivity and quality of a product. In the future, they can be used to perform medical operations and be used in humanoid robots, which can interact with humans. They are used in environments, which are inaccessible to humans like operating in a remote environment like in outer space or to an extraterrestrial body to conduct research.</description>
     </item>
     
     <item>
@@ -49,14 +42,7 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
       <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/projects/cansat/</guid>
-      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
-This is bold text
-This is italic text
-This is italic text
-Deleted text
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+      <description>The main aim of a CanSat is in the measurement of the CanSat’s position, atmospheric temperature, moisture, pressure and most importantly pollutants during its descent under the effect of gravity. The measurements that will be taken will be precisely measured at regular time intervals. These measurements will be transmitted to the ground station in real time using antennas. The CanSat can be used for finding the culprits behind air pollution at a given place.</description>
     </item>
     
     <item>
@@ -65,14 +51,10 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
       <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/projects/clock/</guid>
-      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
-This is bold text
-This is italic text
-This is italic text
-Deleted text
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+      <description>System designed: Digital Clock
+Description: A Digital Alarm Clock that displays Time
+Basic Functionalities:-
+ Time is displayed in HH:MM:SS format along with date (dd/mm/20yy). Both 24 Hr and 12 Hr formats are available and can be decided by the user. All of the above can be set by the user. Alarm can be set to a particular hour and minutes. The time will be displayed and updated in real time on the LCD screen provided.</description>
     </item>
     
     <item>
@@ -81,22 +63,6 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
       <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/projects/objecttrack/</guid>
-      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
-This is bold text
-This is italic text
-This is italic text
-Deleted text
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
-    </item>
-    
-    <item>
-      <title>Project Kratos</title>
-      <link>https://akash1306.github.io/projects/cosmo/</link>
-      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://akash1306.github.io/projects/cosmo/</guid>
       <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
 This is bold text
 This is italic text
@@ -123,6 +89,15 @@ The rover has a double lambda rocker-bogie based suspension system fitted with a
       <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/projects/mate/</guid>
+      <description>Simulations are a crucial part of the Design and Deployment process as it gives us an opportunity to test our software and algorithms before deploying them in the physical world. This not only ensures that the operators are well versed with the system that they are working with but also reduces the risk of deploying the product directly which can cost the user their hardware in case of failure. In this project, we are trying to build an Open Source Simulator to test the control system for Unmanned Underwater Vehicles (UUV).</description>
+    </item>
+    
+    <item>
+      <title>Study of Cosmological Model Using General theory of Relativity</title>
+      <link>https://akash1306.github.io/projects/cosmo/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/projects/cosmo/</guid>
       <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
 This is bold text
 This is italic text
@@ -155,14 +130,8 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
       <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/projects/tesla/</guid>
-      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
-This is bold text
-This is italic text
-This is italic text
-Deleted text
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+      <description>The Tesla coil is an electrical resonant transformer circuit designed by inventor Nikola Tesla. It is used to produce high-voltage, low current, and high frequency alternating-current electricity. The primary and secondary circuits are tuned so they resonate at the same frequency; they have the same resonant frequency. This allows them to exchange energy, so the oscillating current alternates back and forth between the primary and secondary coils.
+We aimed to build a solid-state tesla coil, which means that it creates oscillation by taking a DC input and output the sparks on the open end of the secondary coils.</description>
     </item>
     
   </channel>

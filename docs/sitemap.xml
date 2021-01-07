@@ -63,11 +63,6 @@
   </url>
   
   <url>
-    <loc>https://akash1306.github.io/projects/cosmo/</loc>
-    <lastmod>2019-06-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://akash1306.github.io/projects/kratos/</loc>
     <lastmod>2019-06-08T00:00:00+00:00</lastmod>
   </url>
@@ -84,6 +79,11 @@
   
   <url>
     <loc>https://akash1306.github.io/projects/</loc>
+    <lastmod>2019-06-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akash1306.github.io/projects/cosmo/</loc>
     <lastmod>2019-06-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -233,6 +233,10 @@
   
   <url>
     <loc>https://akash1306.github.io/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://akash1306.github.io/experience/</loc>
   </url>
   
   <url>

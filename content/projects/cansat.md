@@ -2,81 +2,24 @@
 date = "2019-06-08"
 title = "CanSat"
 description = "Project Kratos: A Mars Rover"
-images = ["/images/kratos.jpg"]
+images = ["/images/cansat.png"]
 math = true
 series = ["Projects", "Autonomous"]
 +++
-##### A Mars Rover Project
-![Example image](/images/kratos.png)
-## Style Demo
 
-# h1 Heading
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
+![Example image](/images/cansat.png)
 
 
----
+The main aim of a CanSat is in the measurement of the CanSat’s position, atmospheric temperature, moisture, pressure and most importantly pollutants during its descent under the effect of gravity. The measurements that will be taken will be precisely measured at regular time intervals. These measurements will be transmitted to the ground station in real time using antennas.
+The CanSat can be used for finding the culprits behind air pollution at a given place. The pollutants give an indication of their possible sources. We can then let the concerned authorities know about our findings.
 
-**This is bold text**
+The low cost of implementation, short preparation time and simplicity of design compared to other space projects make of this concept an excellent practical opportunity for students to take their first steps in space equipment awareness. The affordability of the project helps amateur space scientists to study and gain knowledge from studying the upper atmosphere of the earth, learning how to make a guided landing.
+We made use of Helium balloons to take the CanSat in the atmosphere and then dropped it with a parachute to reduce the speed of descent and allowed for a soft-landing.
 
-__This is bold text__
-
-*This is italic text*
-
-_This is italic text_
-
-~~Deleted text~~
-
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-
-$$
-\sum_{n=1}^{\infty} 2^{-n} = 1
-$$
-
-| Heading | Another heading |
-| :----:  | :-------------: |
-|  text   |      text       |
-|  text   |      text       |
-|  text   |      text       |
-
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
-
-Some text, and some `code` and then a nice plain [link with title](https://github.com/davidhampgonsalves/davidhampgonsalves.com-hugo "title text!").
-
-and then
-
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-+ Very easy!
-
-vs.
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-## Code
-
-Inline `code`
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Hugo shortcode for figure
-
-{{< figure src="/images/N90.jpg" caption="N90 nebula, \"New stars shed light on the past\" by ESA/Hubble" >}}
-{{< youtube 7ka3s3takjY >}}
+**Our Aim:**
+1. Impact mechanics - To predict how the satellite will behave on impact
+2. Sensors interfacing - To interface all the on-board sensors
+3. Programming - To code all the components of the micro-controller, giving instructions for the experiment
+4. Material science - To research upon the material that should be used to make the satellite, and get a suitable material for parachute and landing gear.
+5. Atmospheric Physics - To interpret the collected data collected of the atmosphere while descending.
+5. Aerodynamics - To ensure that the parachute fabricated is neither large nor to small for the cansat

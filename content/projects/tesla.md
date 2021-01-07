@@ -2,81 +2,30 @@
 date = "2019-06-08"
 title = "Tesla Coil Slayer Exciter"
 description = "Project Kratos: A Mars Rover"
-images = ["/images/kratos.jpg"]
+images = ["/images/kratos.jpeg"]
 math = true
 series = ["Projects", "Autonomous"]
 +++
-##### A Mars Rover Project
-![Example image](/images/kratos.png)
-## Style Demo
+![Example image](/images/tesla.jpg)
 
-# h1 Heading
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
+The Tesla coil is an electrical resonant transformer circuit designed by inventor Nikola Tesla. It is used to produce high-voltage, low current, and high frequency alternating-current electricity. The primary and secondary circuits are tuned so they resonate at the same frequency; they have the same resonant frequency. This allows them to exchange energy, so the oscillating current alternates back and forth between the primary and secondary coils.
 
+We aimed to build a solid-state tesla coil, which means that it creates oscillation by taking a DC input and output the sparks on the open end of the secondary coils. The sparks oscillate such that they produce the sound which we input through an audio jack, along with powering devices wirelessly. All of this happens while one end of the circuit is open!
+The project started with a single coil circuit, which was then tuned to higher or lower frequency as needed. Then we moved towards a bigger coil to output more power and used two coils so that we could output the sound at two different frequencies at the same time.
 
----
+The aim of our project is to examine the various utilities one can obtain using a slayer exciter tesla coil, a field relatively unexplored till date. A primary tesla coil made using Transistors serves the basic use of providing wireless power transfer, whereas, using a MOSFET and Gate Driver IC adds a dimension of new possibilities and wide-ranging applications in the field of wireless technology as well as levitation and artificial gravity.
 
-**This is bold text**
+**The basic working and how the circuit was used is explained below: **
 
-__This is bold text__
+![Tesla Circuit](/images/tesla2.JPG)
 
-*This is italic text*
+1. Turning the circuit on, R drives the base of the transistor Q
+2. Q turns on and drives current into the primary of the transformer. The current is limited by the limited available base current.
+3. The created magnetic field drives the secondary of the transformer.
+4. The secondary voltage wants to grow large. But the tiny stray capacitance on the output resists the change, although very small, against the rise of the output end and so in return the voltage on the other end of the transformer goes down, pulling the base of the transistor low.
+5. Diode D prevents the base voltage to fall more than 0.7V below ground, which in return pushes the output end of the secondary high.
+6. The transistor turns off and so the magnetic field starts to reduce.
+7. The base voltage rises again, Q turns on, and the cycle repeats.
+8. The primary and secondary coil are loosely coupled. 
 
-_This is italic text_
-
-~~Deleted text~~
-
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-
-$$
-\sum_{n=1}^{\infty} 2^{-n} = 1
-$$
-
-| Heading | Another heading |
-| :----:  | :-------------: |
-|  text   |      text       |
-|  text   |      text       |
-|  text   |      text       |
-
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
-
-Some text, and some `code` and then a nice plain [link with title](https://github.com/davidhampgonsalves/davidhampgonsalves.com-hugo "title text!").
-
-and then
-
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-+ Very easy!
-
-vs.
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-## Code
-
-Inline `code`
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Hugo shortcode for figure
-
-{{< figure src="/images/N90.jpg" caption="N90 nebula, \"New stars shed light on the past\" by ESA/Hubble" >}}
-{{< youtube 7ka3s3takjY >}}
+The circuit for the musical Tesla coil is much more complicated and use many different components, but deep within the circuit, the basic working is same as explained above. The only addition being, we input an audio signal, which is converted, to square wave, which modulates the output frequency, thus producing the musical sparks.

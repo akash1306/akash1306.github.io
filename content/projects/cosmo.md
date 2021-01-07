@@ -1,6 +1,6 @@
 +++
 date = "2019-06-08"
-title = "Project Kratos"
+title = "Study of Cosmological Model Using General theory of Relativity"
 description = "Study of Cosmological Model Using General theory of Relativity"
 images = ["/images/kratos.jpg"]
 math = true
