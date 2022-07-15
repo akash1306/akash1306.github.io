@@ -117,6 +117,6 @@ disqusShortname = "yourdiscussshortname"
             [[languages.en.menu.main]]
             name = "CV"
             weight = 6
-            url = "https://drive.google.com/file/d/1h18k-Tgx33Ko118sxLjFMEg92Tq1eVX8/view?usp=sharing"
+            url = "https://drive.google.com/file/d/1NWcEr5-1p6YQhDVsnmg5Fg5ikGnX8nYB/view?usp=sharing"
 
 theme = "hugo-coder"
