@@ -6,11 +6,7 @@
     <description>Recent content in Autonomous on Akash Chaudhary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://akash1306.github.io/series/autonomous/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://akash1306.github.io/series/autonomous/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project MATE: Undergraduate Thesis</title>
       <link>https://akash1306.github.io/projects/mate/</link>
@@ -44,14 +40,14 @@
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/projects/thinfilm/</guid>
-      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
 This is bold text
 This is italic text
 This is italic text
 Deleted text
 This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
 $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+Heading Another heading text text text text text text Block quotes are written like so.</description>
     </item>
     
     <item>
@@ -63,7 +59,7 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
       <description>System designed: Digital Clock
 Description: A Digital Alarm Clock that displays Time
 Basic Functionalities:-
- Time is displayed in HH:MM:SS format along with date (dd/mm/20yy). Both 24 Hr and 12 Hr formats are available and can be decided by the user. All of the above can be set by the user. Alarm can be set to a particular hour and minutes. The time will be displayed and updated in real time on the LCD screen provided.</description>
+Time is displayed in HH:MM:SS format along with date (dd/mm/20yy). Both 24 Hr and 12 Hr formats are available and can be decided by the user. All of the above can be set by the user. Alarm can be set to a particular hour and minutes. The time will be displayed and updated in real time on the LCD screen provided.</description>
     </item>
     
     <item>
@@ -72,14 +68,14 @@ Basic Functionalities:-
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/projects/objecttrack/</guid>
-      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
 This is bold text
 This is italic text
 This is italic text
 Deleted text
 This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
 $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+Heading Another heading text text text text text text Block quotes are written like so.</description>
     </item>
     
     <item>
@@ -98,14 +94,14 @@ The rover has a double lambda rocker-bogie based suspension system fitted with a
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/projects/cosmo/</guid>
-      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
 This is bold text
 This is italic text
 This is italic text
 Deleted text
 This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
 $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+Heading Another heading text text text text text text Block quotes are written like so.</description>
     </item>
     
     <item>
@@ -114,14 +110,14 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
       <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/projects/baja/</guid>
-      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
 This is bold text
 This is italic text
 This is italic text
 Deleted text
 This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
 $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+Heading Another heading text text text text text text Block quotes are written like so.</description>
     </item>
     
     <item>

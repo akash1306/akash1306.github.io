@@ -23,11 +23,11 @@
     <meta property="og:title" content="Project MATE: Undergraduate Thesis" />
 <meta property="og:description" content="Project Kratos: A Mars Rover" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://akash1306.github.io/projects/mate/" />
-<meta property="og:image" content="https://akash1306.github.io/images/kratos.jpg" />
+<meta property="og:url" content="https://akash1306.github.io/projects/mate/" /><meta property="og:image" content="https://akash1306.github.io/images/kratos.jpg" /><meta property="article:section" content="projects" />
 <meta property="article:published_time" content="2020-07-06T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-07-06T00:00:00+00:00" />
-
+<meta property="og:see_also" content="https://akash1306.github.io/projects/cansat/" /><meta property="og:see_also" content="https://akash1306.github.io/projects/arm/" /><meta property="og:see_also" content="https://akash1306.github.io/projects/thinfilm/" /><meta property="og:see_also" content="https://akash1306.github.io/projects/clock/" /><meta property="og:see_also" content="https://akash1306.github.io/projects/objecttrack/" />
+<meta property="og:see_also" content="https://akash1306.github.io/projects/cansat/" /><meta property="og:see_also" content="https://akash1306.github.io/projects/arm/" /><meta property="og:see_also" content="https://akash1306.github.io/projects/thinfilm/" /><meta property="og:see_also" content="https://akash1306.github.io/projects/clock/" /><meta property="og:see_also" content="https://akash1306.github.io/projects/objecttrack/" />
 
 
 
@@ -72,7 +72,7 @@
     <link rel="apple-touch-icon" href="https://akash1306.github.io/images/apple-touch-icon.png">
     <link rel="apple-touch-icon"  sizes="180x180" href="https://akash1306.github.io/images/apple-touch-icon.png">
 
-    <meta name="generator" content="Hugo 0.62.0" />
+    <meta name="generator" content="Hugo 0.101.0" />
   </head>
   
   
@@ -185,18 +185,18 @@
 <ol>
 <li>
 <p>Install ROSBridge suite on your linux machine.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">akash@unitymachine:~$ sudo apt-get install ros-&lt;rosdistro&gt;-rosbridge-suite
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>akash@unitymachine:~$ sudo apt-get install ros-&lt;rosdistro&gt;-rosbridge-suite
+</span></span></code></pre></div></li>
 <li>
 <p>Source your ROS distro and run the websocket launch file.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">akash@unitymachine:~$ source /opt/ros/&lt;rosdistro&gt;/setup.bash
-akash@unitymachine:~$ roslaunch rosbridge_server rosbridge_websocket.launch
-</code></pre></div><p><em>This will also run &lsquo;roscore&rsquo;.</em></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>akash@unitymachine:~$ source /opt/ros/&lt;rosdistro&gt;/setup.bash
+</span></span><span style="display:flex;"><span>akash@unitymachine:~$ roslaunch rosbridge_server rosbridge_websocket.launch
+</span></span></code></pre></div><p><em>This will also run &lsquo;roscore&rsquo;.</em></p>
 </li>
 <li>
 <p>Check the host IP address in a new terminal using</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">akash@unitymachine:~$ hostname -I
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>akash@unitymachine:~$ hostname -I
+</span></span></code></pre></div></li>
 </ol>
 <p><em>Note: If you are running Unity and ROS on the same system, the IP address would be &lsquo;ws://localhost:9090&rsquo;</em></p>
 <ol start="4">
@@ -206,25 +206,25 @@ akash@unitymachine:~$ roslaunch rosbridge_server rosbridge_websocket.launch
 <p>The rosbridge_suite currently does not support ROS 2 officially. But there is a pull request (<a href="https://github.com/RobotWebTools/rosbridge_suite/pull/493">https://github.com/RobotWebTools/rosbridge_suite/pull/493</a>) to the repository for ROS 2 support. We use the contents of that pull request to setup the rosbridge connection for ROS 2.</p>
 <ol>
 <li>Clone the rosbridge_suite repository to your system.
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">akash@unitymachine:~$ git clone https://github.com/RobotWebTools/rosbridge_suite.git
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>akash@unitymachine:~$ git clone https://github.com/RobotWebTools/rosbridge_suite.git
+</span></span></code></pre></div></li>
 <li>Shift to the latest commit of the ROS 2 support pull request using GitHub CLI.
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">akash@unitymachine:~$ gh pr checkout 493
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>akash@unitymachine:~$ gh pr checkout 493
+</span></span></code></pre></div></li>
 <li>Build the library on your system and source your ROS 2 distro.
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">akash@unitymachine:~$ source /opt/ros/eloquent/setup.sh
-akash@unitymachine:~$ cd rosbridge_suite
-akash@unitymachine:~/rosbridge_suite$ colcon build
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>akash@unitymachine:~$ source /opt/ros/eloquent/setup.sh
+</span></span><span style="display:flex;"><span>akash@unitymachine:~$ cd rosbridge_suite
+</span></span><span style="display:flex;"><span>akash@unitymachine:~/rosbridge_suite$ colcon build
+</span></span></code></pre></div></li>
 <li>Source the setup.bash of the rosbridge library.
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">akash@unitymachine:~/rosbridge_suite $ source install/setup.bash
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>akash@unitymachine:~/rosbridge_suite $ source install/setup.bash
+</span></span></code></pre></div></li>
 <li>Run the websocket script.
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">akash@unitymachine:~/rosbridge_suite $ ros2 run rosbridge_server rosbridge_websocket
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>akash@unitymachine:~/rosbridge_suite $ ros2 run rosbridge_server rosbridge_websocket
+</span></span></code></pre></div></li>
 </ol>
 <h2 id="rosbridge-library">RosBridge Library</h2>
-<p>There are two Rosbridge libraries that come into play when using this project. One on the unity side and the other one on the ROS side. Both of them are named the same. For the sake of simplicity, I'll be using RosBridgeUnity and RosBridgeRos to denote the library of Unity and ROS respectively.</p>
+<p>There are two Rosbridge libraries that come into play when using this project. One on the unity side and the other one on the ROS side. Both of them are named the same. For the sake of simplicity, I&rsquo;ll be using RosBridgeUnity and RosBridgeRos to denote the library of Unity and ROS respectively.</p>
 <p><strong>What is RosBridge Library in general?</strong></p>
 <p>The documentation of the rosbridge_suite (i.e. RosBridgeRos) states &ldquo;rosbridge provides a JSON interface to ROS, allowing any client to send JSON to publish or subscribe to ROS topics, call ROS services, and more. rosbridge supports a variety of transport layers, including WebSockets and TCP.&rdquo;</p>
 <p>In simpler terms, you can send data over a network to and from ROS using this library. This is how we use it in this project. We send data, which might include parameters, control inputs, or video feed, between Unity3D and ROS which enables us to use the Unity simulator as a substitute for actual hardware. This allows us to test all of our algorithms as if we are running them on the actual ROV itself. Thus saving us time and money, and it also reduces risks that experimental programs might pose on expensive hardware.</p>
@@ -233,7 +233,7 @@ akash@unitymachine:~/rosbridge_suite$ colcon build
 <p>This project uses RosBridgeUnity to send video feeds, depth feed, and vehicle parameters from Unity to ROS and receives control commands from ROS. The setup includes using the &lsquo;RosInitializer&rsquo; script to input the target IP address and call all the subscriber and publisher scripts in Unity. RosInitializer.cs also projects the camera feed to 2D textures so that it can then be transferred to ROS as a compressed image.</p>
 <p>To use RosBridgeUnity in your Unity project, copy the RosBridgeLib folder to your Assets folder along with the &lsquo;RosBFolder&rsquo; in the scripts folder which contains the required scripts to launch your connection.</p>
 <h2 id="mapping">Mapping</h2>
-<p>Mapping the vehicle's environment was at the core of the project. It is especially important because it will enable us to save the map and use it later for our digital twin implementation. So to test our mapping systems, the first step was to give our simulator mapping capabilities. Following that, Octomap was used to map and store the environment on the ROS side.</p>
+<p>Mapping the vehicle&rsquo;s environment was at the core of the project. It is especially important because it will enable us to save the map and use it later for our digital twin implementation. So to test our mapping systems, the first step was to give our simulator mapping capabilities. Following that, Octomap was used to map and store the environment on the ROS side.</p>
 <h3 id="unity3d-sonar">Unity3D SONAR</h3>
 <p>The first task at hand was to emulate a multi-beam sonar in our Unity3D vehicle to send depth information over our ROSBridge. This was done using the Raycast method of the Physics package of Unity. The steps required for this implementation are as follows:</p>
 <ol>
@@ -242,21 +242,20 @@ akash@unitymachine:~/rosbridge_suite$ colcon build
 <li>If a collision occurs, save the distance to a depth array element.</li>
 <li>If not, then assign a large enough value to the element which will then be substituted for infinity by the ROS decoder for the /scan message.</li>
 </ol>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">        RaycastHit hit;
-        Debug.DrawRay(auv.transform.position, auv.transform.right * -30);
-
-        if (Physics.Raycast(auv.transform.position, auv.transform.right * -1, out hit, 30))
-        {
-            depthLog[320] = hit.distance;
-        }
-        else
-        {
-            depthLog[320] = 30;
-        }
-
-</code></pre></div><p>This concludes the Unity3D implementation, and we can now move on to the Octomap module.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>        RaycastHit hit;
+</span></span><span style="display:flex;"><span>        Debug.DrawRay(auv.transform.position, auv.transform.right * -30);
+</span></span><span style="display:flex;"><span><span style="color:#f00">
+</span></span></span><span style="display:flex;"><span><span style="color:#f00"></span>        if (Physics.Raycast(auv.transform.position, auv.transform.right * -1, out hit, 30))
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            depthLog[320] = hit.distance;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        else
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            depthLog[320] = 30;
+</span></span><span style="display:flex;"><span>        }
+</span></span></code></pre></div><p>This concludes the Unity3D implementation, and we can now move on to the Octomap module.</p>
 <h3 id="octomap-mapping">Octomap Mapping</h3>
-<p>As mentioned in the Octomap's homepage - &ldquo;The OctoMap library implements a 3D occupancy grid mapping approach, providing data structures and mapping algorithms in C++ particularly suited for robotics.&rdquo; We use octomap to recreate the environment scanned by our underwater vehicle, and subsequently, save it to be used to future implementation. This is done in several steps which are outlined below.</p>
+<p>As mentioned in the Octomap&rsquo;s homepage - &ldquo;The OctoMap library implements a 3D occupancy grid mapping approach, providing data structures and mapping algorithms in C++ particularly suited for robotics.&rdquo; We use octomap to recreate the environment scanned by our underwater vehicle, and subsequently, save it to be used to future implementation. This is done in several steps which are outlined below.</p>
 <ol>
 <li>By incorporating the position published from the Unity3D simulator, we publish the transform of the vehicle by using the tf2 library. This is then broadcasted by a tf broadcaster, to be used by our octomapping node later on.</li>
 <li>A string decoder subscribes to the decoded depth array sent from Unity3D and republish that data as a float array.</li>
@@ -288,14 +287,14 @@ akash@unitymachine:~/rosbridge_suite$ colcon build
 <ol>
 <li>Release the AUV from the control station when ’R’ is pressed.</li>
 <li>Control the button functions for the Front and Downward Illumination.</li>
-<li>Optional functions to switch camera view if the user doesn't want two camera views on the screen.</li>
+<li>Optional functions to switch camera view if the user doesn&rsquo;t want two camera views on the screen.</li>
 </ol>
 </li>
 <li>
 <p><strong>Coordinates:</strong> Show the coordinates of the AUV and freezes them when &lsquo;M&rsquo; is pressed to mark the Leak’s coordinates.</p>
 </li>
 <li>
-<p><strong>FogStart:</strong> Switches on Unity's Fog when the vehicle's position is below the water level. The color of the fog is preset in Unity settings.</p>
+<p><strong>FogStart:</strong> Switches on Unity&rsquo;s Fog when the vehicle&rsquo;s position is below the water level. The color of the fog is preset in Unity settings.</p>
 </li>
 <li>
 <p><strong>ForceControls:</strong> Uses AddForce and AddTorque to make the vehicle move, thus providing a more realistic approach.</p>
@@ -360,13 +359,13 @@ akash@unitymachine:~/rosbridge_suite$ colcon build
 <h2 id="underwater-environment">Underwater Environment</h2>
 <p>This section deals with creating a realistic underwater environment, which includes water surface, light diffusion effects, and fog effects. We will not discuss underwater distortion as that will involve shaders, which fall out of the scope of this section.</p>
 <h3 id="setting-up-the-environment">Setting Up the Environment</h3>
-<p>We will first set up the environment using some simple shapes and Unity's Standard Assets. The steps are as follows:</p>
+<p>We will first set up the environment using some simple shapes and Unity&rsquo;s Standard Assets. The steps are as follows:</p>
 <ol>
 <li>Make a pool using 5 cubes by resizing them.</li>
-<li>Import Unity's Standard Assets from the Asset Store, into the project.</li>
+<li>Import Unity&rsquo;s Standard Assets from the Asset Store, into the project.</li>
 <li>Go to Standard Assets -&gt; Environment -&gt; Water
-You'll see two options. Both are just different versions, and what you choose depends upon your preference and how much resources do you have to spare to render water. In this project, we use Water4Advanced.</li>
-<li>Further go to Water4 -&gt; Prefabs and insert the <strong>Water4Advance</strong> into the scene. Resize it according to the size of your pool. 
+You&rsquo;ll see two options. Both are just different versions, and what you choose depends upon your preference and how much resources do you have to spare to render water. In this project, we use Water4Advanced.</li>
+<li>Further go to Water4 -&gt; Prefabs and insert the <strong>Water4Advance</strong> into the scene. Resize it according to the size of your pool.
 <em>Note: Never scale it more than 2 times, or the waves will become choppy. Insert multiple instances of the prefab if you want to cover a larger area, each with a scale of 2 or lower.</em></li>
 <li>Set your camera (or cameras) at a good vantage position to observe the effects. You can have two cameras, one above the water and one below to better observe all the effects.</li>
 <li><em>Optional</em> Duplicate your water prefabs, rotate them 180 degrees on the x-axis and move them just a little bit below the original ones to get better reflections once you are underwater.</li>
@@ -376,7 +375,7 @@ You'll see two options. Both are just different versions, and what you choose de
 <hr>
 <p>Once this is done, we can now move on to add underwater fog to limit visibility.</p>
 <h3 id="underwater-fog">Underwater Fog</h3>
-<p>Once the vehicle or player is underwater, it becomes very clear that the scene doesn't look realistic. It looks just like it does above water. So we will now add underwater fog. This is done by using unity's own Fog in the <em>Lightening Settings.</em> But before that, we will add a player which can move in the scene.</p>
+<p>Once the vehicle or player is underwater, it becomes very clear that the scene doesn&rsquo;t look realistic. It looks just like it does above water. So we will now add underwater fog. This is done by using unity&rsquo;s own Fog in the <em>Lightening Settings.</em> But before that, we will add a player which can move in the scene.</p>
 <ol>
 <li>Add a platform for the player to walk on, which is connected to the pool.</li>
 <li>Add a capsule GameObject, which will behave as our body.</li>
@@ -385,7 +384,7 @@ You'll see two options. Both are just different versions, and what you choose de
 <p>This is our player now. You can playtest it by playing Ctrl + P and moving around in the scene, or even jump in the water. You can delete the cameras, although they can still be used for observations.</p>
 <ol start="4">
 <li>Go to Window tab -&gt; Rendering -&gt; Lighting and click on the Environment Tab. You can see the Fog settings (under Other Settings) there. This is where we will set the color of our fog. (You can give colors to all other assets too, for aesthetic effects)</li>
-<li>Check the box in front of the Fog option. This will switch on the fog. You will notice that the fog is greyish and it's everywhere, including above water. We will control its activation with a script.</li>
+<li>Check the box in front of the Fog option. This will switch on the fog. You will notice that the fog is greyish and it&rsquo;s everywhere, including above water. We will control its activation with a script.</li>
 <li>Change the mode to &lsquo;Linear&rsquo;, which gives it a more realistic effect.</li>
 <li>Keep the Start position as zero and set the end position according to your scene. I am using 20.</li>
 <li>Set the color according to your preference. I am using a dirty green color to get a more algae infested water body.</li>
@@ -403,13 +402,13 @@ You'll see two options. Both are just different versions, and what you choose de
 <hr>
 <p>Our fog is now in place, and we can now move forward with underwater light distortion effects.</p>
 <h3 id="underwater-diffusion">Underwater Diffusion</h3>
-<p>When light passes through the water's surface, it diffuses and falls on the underwater surfaces in a continuously moving pattern. We will try to emulate this effect using caustics and projectors.
-A Projector allows you to project a Material onto all objects that intersect its frustum. We will use two projectors. Once is a blob light projector and the other one is a grid projector. 
-The BlobLight projector will project from the water's surface, while the grid projector will do it from above.</p>
+<p>When light passes through the water&rsquo;s surface, it diffuses and falls on the underwater surfaces in a continuously moving pattern. We will try to emulate this effect using caustics and projectors.
+A Projector allows you to project a Material onto all objects that intersect its frustum. We will use two projectors. Once is a blob light projector and the other one is a grid projector.
+The BlobLight projector will project from the water&rsquo;s surface, while the grid projector will do it from above.</p>
 <ol>
 <li>Go to Standard Assets -&gt; Effects -&gt; Projectors -&gt; Prefabs and add <strong>BlobLightProjector</strong> &amp; <strong>GridProjector</strong> to the scene. Place the grid projector above the water surface, and the Blob light projector just below the surface.</li>
 <li>Import the WaterAnim.cs script from this project into your project and attach it to both the projectors.</li>
-<li>Import the Caustics folder to your projector, which contains the images that'll be projected onto the surfaces.</li>
+<li>Import the Caustics folder to your projector, which contains the images that&rsquo;ll be projected onto the surfaces.</li>
 <li>Set the settings for the projectors in the inspector panel as shown below</li>
 </ol>
 <hr>
@@ -455,7 +454,7 @@ The BlobLight projector will project from the water's surface, while the grid pr
         
           2019 -
         
-        2021
+        2022
          Akash Chaudhary 
       
       
@@ -470,7 +469,7 @@ The BlobLight projector will project from the water's surface, while the grid pr
 
     
       
-      <script src="https://akash1306.github.io/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      <script src="https://akash1306.github.io/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js"></script>
     
 
     
