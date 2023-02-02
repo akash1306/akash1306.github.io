@@ -82,7 +82,7 @@ disqusShortname = "yourdiscussshortname"
 
 [[params.social]]
     name = "Medium"
-    icon = "fa-brands fa-medium fa-2x"
+    icon = "fa fa-medium fa-2x"
     weight = 3
     url = "https://medium.com/@akash.chaudhary1306"
 [[params.social]]
