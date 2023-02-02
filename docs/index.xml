@@ -6,7 +6,16 @@
     <description>Recent content on Akash Chaudhary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://akash1306.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://akash1306.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emulate a High Density LIDAR in Unreal Engine 5</title>
+      <link>https://akash1306.github.io/posts/lidar/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://akash1306.github.io/posts/lidar/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Project MATE: Undergraduate Thesis</title>
       <link>https://akash1306.github.io/projects/mate/</link>
@@ -24,7 +33,7 @@
       <guid>https://akash1306.github.io/posts/twemoji-support/</guid>
       <description>If you want to use Twitter&amp;rsquo;s Twemoji across your website, enable it in your config.toml
 [params] enableTwemoji = true This will not only give your website unified emojis across all platforms. It will also give you the latest Unicode 13 emoji set, such as 🧋🫕🛻🪗🪞.
-Emoji size changes with text size 🤩 Emoji size changes with text size 🤩 Emoji size changes with text size 🤩 Emoji size changes with text size 🤩 Emoji size changes with text size 🤩 Emoji size changes with text size 🤩 </description>
+Emoji size changes with text size 🤩Link to headingEmoji size changes with text size 🤩Link to headingEmoji size changes with text size 🤩Link to headingEmoji size changes with text size 🤩Link to headingEmoji size changes with text size 🤩Link to headingEmoji size changes with text size 🤩Link to heading</description>
     </item>
     
     <item>
@@ -82,14 +91,12 @@ This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ This is text with
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/projects/thinfilm/</guid>
-      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
+      <description>A Mars Rover ProjectLink to headingStyle DemoLink to headingh1 HeadingLink to headingh2 HeadingLink to headingh3 HeadingLink to headingh4 HeadingLink to headingh5 HeadingLink to headingh6 HeadingLink to headingThis is bold text
 This is bold text
 This is italic text
 This is italic text
 Deleted text
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-Heading Another heading text text text text text text Block quotes are written like so.</description>
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:</description>
     </item>
     
     <item>
@@ -128,14 +135,12 @@ Time is displayed in HH:MM:SS format along with date (dd/mm/20yy). Both 24 Hr an
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/projects/objecttrack/</guid>
-      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
+      <description>A Mars Rover ProjectLink to headingStyle DemoLink to headingh1 HeadingLink to headingh2 HeadingLink to headingh3 HeadingLink to headingh4 HeadingLink to headingh5 HeadingLink to headingh6 HeadingLink to headingThis is bold text
 This is bold text
 This is italic text
 This is italic text
 Deleted text
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-Heading Another heading text text text text text text Block quotes are written like so.</description>
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:</description>
     </item>
     
     <item>
@@ -154,14 +159,12 @@ The rover has a double lambda rocker-bogie based suspension system fitted with a
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/projects/cosmo/</guid>
-      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
+      <description>A Mars Rover ProjectLink to headingStyle DemoLink to headingh1 HeadingLink to headingh2 HeadingLink to headingh3 HeadingLink to headingh4 HeadingLink to headingh5 HeadingLink to headingh6 HeadingLink to headingThis is bold text
 This is bold text
 This is italic text
 This is italic text
 Deleted text
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-Heading Another heading text text text text text text Block quotes are written like so.</description>
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:</description>
     </item>
     
     <item>
@@ -170,14 +173,12 @@ Heading Another heading text text text text text text Block quotes are written l
       <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/projects/baja/</guid>
-      <description>A Mars Rover Project Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
+      <description>A Mars Rover ProjectLink to headingStyle DemoLink to headingh1 HeadingLink to headingh2 HeadingLink to headingh3 HeadingLink to headingh4 HeadingLink to headingh5 HeadingLink to headingh6 HeadingLink to headingThis is bold text
 This is bold text
 This is italic text
 This is italic text
 Deleted text
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-Heading Another heading text text text text text text Block quotes are written like so.</description>
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:</description>
     </item>
     
     <item>
@@ -196,15 +197,13 @@ We aimed to build a solid-state tesla coil, which means that it creates oscillat
       <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/posts/theme-demo/</guid>
-      <description>Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
+      <description>Style DemoLink to headingh1 HeadingLink to headingh2 HeadingLink to headingh3 HeadingLink to headingh4 HeadingLink to headingh5 HeadingLink to headingh6 HeadingLink to headingThis is bold text
 This is bold text
 This is italic text
 This is italic text
 Deleted text
 This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-Heading Another heading text text text text text text Block quotes are written like so.
-They can span multiple paragraphs, if you like.</description>
+$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$</description>
     </item>
     
     <item>
@@ -213,7 +212,7 @@ They can span multiple paragraphs, if you like.</description>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/exp/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+      <description>IntroductionLink to headingThis tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
@@ -223,7 +222,7 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/posts/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+      <description>IntroductionLink to headingThis tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
@@ -253,12 +252,10 @@ This document is a brief primer on using go templates.</description>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/posts/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+      <description>Step 1. Install HugoLink to headingGoto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
-Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description>
+Step 2. Build the DocsLink to headingHugo has its own example site which happens to also be the documentation site you are reading right now.</description>
     </item>
     
     <item>
@@ -267,7 +264,7 @@ Clone the hugo repository Go into the repo Run hugo in server mode and build the
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://akash1306.github.io/posts/migrate-from-jekyll/</guid>
-      <description>Table of Contents Move static content to static Create your Hugo configuration file Set your configuration publish folder to site Convert Jekyll templates to Hugo templates Convert Jekyll plugins to Hugo shortcodes Implementation Usage Finishing Touches Fix Content Clean Up A practical example in a diff Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static.</description>
+      <description>Table of ContentsLink to headingMove static content to static Create your Hugo configuration file Set your configuration publish folder to site Convert Jekyll templates to Hugo templates Convert Jekyll plugins to Hugo shortcodes Implementation Usage Finishing Touches Fix Content Clean Up A practical example in a diff Move static content to staticLink to headingJekyll has a rule that any directory not starting with _ will be copied as-is to the _site output.</description>
     </item>
     
     <item>
@@ -278,7 +275,7 @@ Clone the hugo repository Go into the repo Run hugo in server mode and build the
       <guid>https://akash1306.github.io/about/</guid>
       <description>Hello there, I am Akash, a research fellow and incoming PhD candidate at the Multi-Robot System Group, Czech Technical University in Prague. And in the spirit of every programmer out there, this ReadMe is also copied from somewhere (from one of my friends, btw. Et Tu Brute?).
 Google Scholar
-- 🤖 What do I do? Research Interests My primary research interest is Human-Swarm Interaction. I work on enabling humans to work with robots, specifically UAVs, to perform certain tasks.</description>
+- 🤖 What do I do?Link to headingResearch InterestsLink to headingMy primary research interest is Human-Swarm Interaction. I work on enabling humans to work with robots, specifically UAVs, to perform certain tasks.</description>
     </item>
     
     <item>
@@ -288,7 +285,7 @@ Google Scholar
       
       <guid>https://akash1306.github.io/contact/</guid>
       <description>Akash Chaudhary: akash.chaudhary1306@gmail.com | +91 7038745209
-Social Media: Facebook: Click here
+Social Media:Link to headingFacebook: Click here
 Instagram: Click here
 LinkedIn: Click here</description>
     </item>
@@ -300,7 +297,7 @@ LinkedIn: Click here</description>
       
       <guid>https://akash1306.github.io/experience/</guid>
       <description>Akash Chaudhary: akash.chaudhary1306@gmail.com | +91 7038745209
-Social Media: Facebook: Click here
+Social Media:Link to headingFacebook: Click here
 Instagram: Click here
 LinkedIn: Click here</description>
     </item>
