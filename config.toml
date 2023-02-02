@@ -76,7 +76,7 @@ disqusShortname = "yourdiscussshortname"
 
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github"
+    icon = "fa fa-github fa-2x"
     weight = 1
     url = "https://github.com/akash1306/"
 
