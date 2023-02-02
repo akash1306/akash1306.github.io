@@ -81,13 +81,13 @@ disqusShortname = "yourdiscussshortname"
     url = "https://github.com/akash1306/"
 
 [[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter"
+    name = "Medium"
+    icon = "fa-brands fa-medium"
     weight = 3
-    url = "https://twitter.com/Akash_Wolf"
+    url = "https://medium.com/@akash.chaudhary1306"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fab fa-linkedin"
+    icon = "fa fa-linkedin fa-2x"
     weight = 4
     url = "https://www.linkedin.com/in/akash1306/"
 
